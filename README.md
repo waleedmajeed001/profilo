@@ -1,4 +1,4 @@
-Its my profilo link : https://profilo-gugfx7yti-waleed-majeeds-projects.vercel.app/
+Its my profilo link : https://profilo-inky.vercel.app/
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
