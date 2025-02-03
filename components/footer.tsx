@@ -7,8 +7,8 @@ const Footer: React.FC = () => {
     const targetSection = document.getElementById(sectionId);
     if (targetSection) {
       targetSection.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
+        behavior: "smooth",
+        block: "start",
       });
     }
   };
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
           <h3 className="font-bold text-xl text-white mb-4">Componentity</h3>
           <p className="text-gray-400 text-sm mb-10">
             Hello! As an AI web developer specializing in frontend design and full-stack development, I craft visually stunning,
-            user-friendly websites tailored to your needs. Let's collaborate to create something amazing!
+            user-friendly websites tailored to your needs. Let&apos;s collaborate to create something amazing!
           </p>
         </div>
         <div className="p-5 sm:w-3/12">

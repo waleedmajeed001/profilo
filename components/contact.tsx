@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
             Contact Us
           </h1>
           <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-            Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we'd love to hear from you.
+            Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we&apos;d love to hear from you.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ const Contact: React.FC = () => {
               </a>
               <br />
               <a className="text-gray-400 hover:text-indigo-400 my-5 leading-normal" href="tel:+923347905592">
-                0334 7905592.
+                0334 7905592
               </a>
               <br />
               <a className="text-gray-400 hover:text-indigo-400 my-5 leading-normal" href="https://www.google.com/maps?q=Gujranwala,+Pakistan">

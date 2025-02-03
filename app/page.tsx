@@ -3,7 +3,7 @@ import HeroSection from "@/components/Hero";
 import Projects from "@/components/project";
 import Service from "@/components/Service";
 import Skills from "@/components/Skills";
-import Contect from "@/components/contect";
+import Contact from "@/components/contact";
 
 const HomePage = () => {
   return (
@@ -13,7 +13,7 @@ const HomePage = () => {
       <Service />
       <Skills />
       <Projects />
-      <Contect />
+      <Contact />
     </div>
   );
 };
