@@ -31,16 +31,16 @@ const Projects: React.FC = () => {
     ];
   
     return (
-      <div className="h-auto py-16 bg-gray-100 dark:bg-black" id="project">
+      <div className="h-auto py-16 bg-black" id="project">
         <div className="max-w-6xl mx-auto w-full">
-          <h4 className="text-3xl md:text-5xl dark:text-white font-bold mb-6 text-center">My Projects</h4>
+          <h4 className="text-3xl md:text-5xl text-white font-bold mb-6 text-center">My Projects</h4>
   
           {/* Projects List */}
           <div>
             {projectList.map((project, index) => (
               <div
                 key={index}
-                className={`flex items-center mb-10 p-6 bg-white dark:bg-gray-900 hover:bg-blue-600 transition-transform duration-100 transform hover:scale-105 rounded-lg shadow-lg ${
+                className={`flex items-center mb-10 p-6 bg-gray-900 hover:bg-blue-600 transition-transform duration-100 transform hover:scale-105 rounded-lg shadow-lg ${
                   index % 2 === 0 ? "flex-row" : "flex-row-reverse"
                 }`}
               >
@@ -55,10 +55,10 @@ const Projects: React.FC = () => {
   
                 {/* Project Info */}
                 <div className="w-full sm:w-1/2 p-4">
-                  <h5 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+                  <h5 className="text-2xl font-semibold text-white mb-3">
                     {project.title}
                   </h5>
-                  <p className="text-base text-gray-600 dark:text-gray-300 mb-3">{project.description}</p>
+                  <p className="text-base text-gray-400 mb-3">{project.description}</p>
                   <a
                     href={project.link}
                     target="_blank"

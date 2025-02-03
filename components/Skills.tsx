@@ -2,9 +2,9 @@ import React from "react";
 
 const Skills: React.FC = () => {
   return (
-    <div className="h-screen flex justify-center items-center dark:bg-black">
+    <div className="h-screen text-white flex justify-center items-center bg-black">
       <div className="max-w-xl mx-auto w-full">
-        <h4 className="text-3xl md:text-5xl dark:text-white font-bold mb-6">Skills</h4>
+        <h4 className="text-3xl md:text-5xl text-white font-bold mb-6">Skills</h4>
 
         {/* Skill Bars */}
         {[
