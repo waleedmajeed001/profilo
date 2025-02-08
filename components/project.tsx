@@ -12,14 +12,14 @@ const Projects: React.FC = () => {
         description:
           "An e-commerce platform for online shopping, featuring product management, user authentication, and payment integration.",
         link: "https://your-ecommerce-link.com", // Replace with your actual project link
-        image: "/404error.png", // Replace with your project image link
+        image: "/e-commerce.png", // Replace with your project image link
       },
       {
-        title: "Project 3: Blog Website",
+        title: "Project 3: Dine Market",
         description:
-          "A fully-functional blog site with the ability to create, edit, and delete posts, built with Node.js and MongoDB.",
+          "A fully-functional e-commerce website with the ability to sell items and all iteams details for cloth shopping.",
         link: "https://your-blog-link.com", // Replace with your actual project link
-        image: "/404error.png", // Replace with your project image link
+        image: "/dinemarket.png", // Replace with your project image link
       },
       {
         title: "Project 4: Chat Application",
