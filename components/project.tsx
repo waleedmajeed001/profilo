@@ -4,21 +4,21 @@ const Projects: React.FC = () => {
         title: "Project 1: Portfolio Website",
         description:
           "A personal portfolio website showcasing my skills and projects built with React and Next.js.",
-        link: "https://your-portfolio-link.com", // Replace with your actual project link
+        link: "https://profilo-inky.vercel.app/", // Replace with your actual project link
         image: "/screenshotpic1.png", // Replace with your project image link
       },
       {
         title: "Project 2: E-Commerce Platform",
         description:
           "An e-commerce platform for online shopping, featuring product management, user authentication, and payment integration.",
-        link: "https://your-ecommerce-link.com", // Replace with your actual project link
+        link: "https://e-commerce-ikni.vercel.app/", // Replace with your actual project link
         image: "/e-commerce.png", // Replace with your project image link
       },
       {
         title: "Project 3: Dine Market",
         description:
           "A fully-functional e-commerce website with the ability to sell items and all iteams details for cloth shopping.",
-        link: "https://your-blog-link.com", // Replace with your actual project link
+        link: "https://dinemarket-sandy.vercel.app/", // Replace with your actual project link
         image: "/dinemarket.png", // Replace with your project image link
       },
       {
