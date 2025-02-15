@@ -28,6 +28,13 @@ const Projects: React.FC = () => {
       link: "https://mangwa.vercel.app/", // Replace with your actual project link
       image: "/blog.png", // Replace with your project image link
     },
+    {
+      title: "Project 5: Gucci",
+      description:
+        "A fully-functional gucci website with the ability to see items and all iteams details for gucci frontend and gucci shopping.",
+      link: "https://gucci-olive.vercel.app/", // Replace with your actual project link
+      image: "/gucci.png", // Replace with your project image link
+    },
   ];
 
   return (
